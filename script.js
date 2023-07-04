@@ -4,16 +4,14 @@
 */
 
 function randomNumber(userGuess, computersNumber) {
+  // YOUR CODE BELOW
+  console.log(userGuess);
+  if (userGuess <= 0 || userGuess >= 101) {
+    return "Guess a number between 1 and 100";
+  }
 
-    // YOUR CODE BELOW
-
-
-
-
-    // YOUR CODE ABOVE
-};
-
-
+  // YOUR CODE ABOVE
+}
 
 //* Have the Computer Guess your Number ---------------------------------------------
 /* 
@@ -31,19 +29,18 @@ function randomNumber(userGuess, computersNumber) {
 */
 
 function startCompGuess(num) {
-    // This should return a string that denotes the first guessed number
-
-    // YOUR CODE ...
-
-
+  // This should return a string that denotes the first guessed number
+  // YOUR CODE ...
 }
 
+function currentNumber()
+
+function lowestNumber()
+
 function compGuess(reply) {
-    /* 
+  /* 
     *   The parameter "reply" will either be passing "lower", "correct", or "higher". This should be considered when evaluating th elogic and response.
 
     This should return a string indicating the computers response.
     */
-
 }
-
