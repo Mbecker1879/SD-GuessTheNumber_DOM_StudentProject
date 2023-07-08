@@ -32,10 +32,8 @@ function startCompGuess(num) {
   // This should return a string that denotes the first guessed number
   // YOUR CODE ...
 }
-
-function currentNumber()
-
-function lowestNumber()
+computersNumber = userGuess;
+numberGuessed = Math.floor(Math.random() * 100) + 5;
 
 function compGuess(reply) {
   /* 
@@ -43,4 +41,12 @@ function compGuess(reply) {
 
     This should return a string indicating the computers response.
     */
+}
+
+if (userGuess === numberGuessed) {
+  return "Correct!";
+} else if (numberGuessed > userGuess) {
+  return "lower";
+} else if (numberGuessed < userGuess) {
+  return "Higher";
 }
